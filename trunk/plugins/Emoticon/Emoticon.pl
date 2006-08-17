@@ -11,7 +11,7 @@ use MT::Plugin;
 
 my $plugin = MT::Plugin->new({
 	name => '<MT_TRANS phrase="Emoticon">',
-	version => '0.1',
+	version => '0.1b',
 	description => '<MT_TRANS phrase="Simply add emoticons in the entries and comments.">',
 	author_name => '<MT_TRANS phrase="Milad Nekofar">',
 	author_link => 'http://www.nekofar.com/',
