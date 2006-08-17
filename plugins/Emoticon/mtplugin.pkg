@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<plugin version="0.1">
+  <name>Emoticon</name>
+  <version_url>http://plugins.movalog.ir/plugin-manager.php?plugin=Emoticon</version_url>
+  <sig>Emoticon/Emoticon.pl</sig>
+  <icon width="32">../../mt-static/plugins/Emoticon/images/icon.gif</icon>
+  <files>
+    <file>
+      <src>plugins/Emoticon</src>
+      <destination>plugins/Emoticon</destination>
+    </file>
+    <file>
+      <src>mt-static/plugins/Emoticon</src>
+      <destination>plugins/Emoticon</destination>
+      <static>1</static>
+    </file>
+    <file>
+      <src>extlib/Text</src>
+      <destination>extlib/Text</destination>
+    </file>
+  </files>
+  <uninstall>
+    <rmdir>plugins/Emoticon</rmdir>
+    <rmdir static="1">plugins/Emoticon</rmdir>
+  </uninstall>
+</plugin>
